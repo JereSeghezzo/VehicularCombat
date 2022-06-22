@@ -16,4 +16,6 @@ public class Gun : MonoBehaviour
      bullet.GetComponent<Rigidbody>().velocity = bulletSpawnPoint.forward * bulletSpeed;
      }
     }
+
+   
 }
